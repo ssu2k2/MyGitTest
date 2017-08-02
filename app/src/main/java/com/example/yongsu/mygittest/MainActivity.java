@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         tvTitle1 = (TextView)findViewById(R.id.tvText1);
         test();
         // Test Commit
+        // Test 1
     }
     private void test() {
         Log.d(TAG, "Call Test()");
