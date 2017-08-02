@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = getClass().getSimpleName();
-    TextView tvTitle0, tvTitle1;
 
+    TextView tvTitle0, tvTitle1;
     ImageView ivImage;
 
     @Override
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tvTitle0 = (TextView)findViewById(R.id.tvText0);
         tvTitle1 = (TextView)findViewById(R.id.tvText1);
         test();
+        // Test Commit
     }
     private void test() {
         Log.d(TAG, "Call Test()");
