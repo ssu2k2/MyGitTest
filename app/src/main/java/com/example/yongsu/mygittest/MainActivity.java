@@ -18,4 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate()");
 
     }
+    private void test() {
+
+    }
 }
