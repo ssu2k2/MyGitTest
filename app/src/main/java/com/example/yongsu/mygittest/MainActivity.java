@@ -8,7 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = getClass().getSimpleName();
-    TextView tvTitle;
+    TextView tvTitle0, tvTitle1;
+
     ImageView ivImage;
 
     @Override
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate()");
+        tvTitle0 = (TextView)findViewById(R.id.tvText0);
+        tvTitle1 = (TextView)findViewById(R.id.tvText1);
         test();
     }
     private void test() {
